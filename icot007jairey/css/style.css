@@ -15,12 +15,7 @@ body{font-family: 'Montserrat', sans-serif; overflow-x: hidden;}
 wrapper{ width:100%;}
 
 .btn {
-  border-radius: 0;
-  font-size: 16px;
-  font-weight: 400;
-  padding: 11px 29px;
-  text-shadow: none;
-  text-transform: capitalize;
+
 }
 
 
@@ -451,6 +446,23 @@ header .navbar-header a img{ display: inline-block;}
   left: 330px;
   top: 200px;
   transform: rotate(120deg);
+}
+
+.read-more {
+  border: 1px solid #2cb8d1 !important;
+  height: 50px;
+  width: 200px;
+  border-radius: 25px;
+  background: none;
+  color: #2cb8d1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+
+.read-more:hover {
+  background-color: #2cb8d1 !important;
 }
 
 /* Second Benefit */
@@ -1164,10 +1176,7 @@ header .navbar-header a img{ display: inline-block;}
 }
 
 .btn-info {
-  background-color: transparent;
-  border: 2px solid #0080ff !important;
-  color: #0080ff;
-  padding: 11px 57px !important;
+
 }
 
 .indresgsec .btn-info {
@@ -1206,19 +1215,17 @@ header .navbar-header a img{ display: inline-block;}
   text-align: center;
 }
 
-.title.centersect:after{  background: rgba(0, 0, 0, 0)  url(../images/afthead.png) no-repeat scroll 0 0;}
 .title.centersect:before{
-background: rgba(0, 0, 0, 0)  url(../images/afthead.png) no-repeat scroll 0 0;
-left: -41px !important;
+  left: -41px !important;
   margin: 0;
   top: 0;
   transform: rotate(180deg);
   bottom: 0;
   content: "";
   height: 27px;
-   width: 33px; position:absolute;
+  width: 33px; position:absolute;
+}
 
-  }
 .centersect {
   color: #fff;
   margin: 0 0 27px;
@@ -1230,7 +1237,6 @@ left: -41px !important;
 }
 
 .title::after {
-  background: rgba(0, 0, 0, 0) url(../images/afthead.png) no-repeat scroll 0 0;
   bottom: 0;
   content: "";
   height: 27px;
