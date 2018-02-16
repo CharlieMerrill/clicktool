@@ -286,6 +286,79 @@ header .navbar-header a img{ display: inline-block;}
   height: 100px;
 }
 
+/* New Timer */
+
+.timer {
+  margin-left: -25px;
+  margin-top: -25px;
+  text-align: center;
+  position: relative;
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+}
+
+.timer div {
+  position: absolute;
+}
+
+.timer-text {
+  display: inline-block;
+}
+
+.timer div p {
+  margin-top: -148px !important;
+  position: absolute;
+  z-index: 3;
+  font-size: 60px;
+}
+
+.timer div p span {
+  font-size: 18px;
+}
+
+#timer-days p {
+  margin-left: 38px;
+}
+
+#timer-hours {
+  left: 174px;
+}
+
+#timer-hours p {
+  margin-left: 59px;
+}
+
+#timer-hours img {
+  transform: rotate(345deg);
+}
+
+#timer-minutes {
+  left: 348px;
+}
+
+#timer-minutes p {
+  margin-left: 52px;
+}
+
+#timer-seconds {
+  left: 523px;
+}
+
+#timer-seconds p {
+  margin-left: 48px;
+}
+
+#timer-seconds img {
+  transform: rotate(345deg);
+}
+
+.timer-gear {
+
+  height: 186px;
+
+}
+
 /* Countdown */
 
 .countDays, .countHours, .countMinutes, .countSeconds {
