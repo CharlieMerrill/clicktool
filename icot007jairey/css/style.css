@@ -450,15 +450,19 @@ header .navbar-header a img{ display: inline-block;}
 
 .read-more {
   border: 1px solid #2cb8d1 !important;
-  border-radius: 25px;
   height: 50px;
   width: 200px;
+  border-radius: 25px;
+  background: none;
+  color: #2cb8d1;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #2cb8d1;
   font-size: 16px;
-  background: none;
+}
+
+.read-more:hover {
+  background-color: #2cb8d1 !important;
 }
 
 /* Second Benefit */
