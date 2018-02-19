@@ -975,14 +975,41 @@ header .navbar-header a img{ display: inline-block;}
 }
 
 .sign-up {
-  height: 100px;
-  background-color: #2cbad3;
-  position: relative;
-  overflow: hidden;
+  width: 60vw;
+  text-align: center;
+  margin: 10px auto;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  color: black;
+  background-color: #F3F3F3;
+  box-shadow: 1px 1px 2px #CCCCCC;
 }
 
-.action-button i {
-  animation: rotate 3s linear infinite;
+.sign-up h1 {
+  color: #24537f;
+}
+
+.action-button {
+  height: 50px;
+  width: 200px;
+  background-color: #2cb8d1;
+  margin: 10px auto;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 2px #CCCCCC;
+}
+
+.action-button:active {
+  box-shadow: none;
+}
+
+.action-button:hover {
+  background-color: #2FCEEB;
+  cursor: pointer;
 }
 
 .action-left {
